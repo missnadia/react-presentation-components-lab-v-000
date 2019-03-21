@@ -7,7 +7,7 @@ class SimpleComponent extends Component {
   }
   
   handleClick = event => {
-    this.setState
+    this.setState 
   }
   
   render() {
