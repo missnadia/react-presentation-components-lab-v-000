@@ -6,9 +6,14 @@ class SimpleComponent extends Component {
     mood: "happy"
   }
   
+  handleClick = event => {
+    
+  }
+  
   render() {
     return (
-      <div>
+      <div
+        onClick={this.handleClick}>
         {this.state.mood}
       </div>
     )
